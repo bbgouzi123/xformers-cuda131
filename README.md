@@ -1,4 +1,4 @@
-# xFormers - CUDA 13.0/13.1 优化版
+# xFormers - CUDA 13.0/13.1 兼容版
 
 <div align="center">
   <img src="logo.png" alt="xFormers Logo" width="200">
@@ -6,7 +6,7 @@
 
 <div align="center">
 
-**专为 PyTorch 2.9.1 + CUDA 13.0/13.1 优化的高性能 Transformer 加速库**
+**支持 PyTorch 2.9.1 + CUDA 13.0/13.1 的高性能 Transformer 加速库**
 
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
@@ -17,7 +17,7 @@
 
 ## 🚀 项目简介
 
-xFormers 是一个用于加速 Transformer 模型研究和部署的高性能工具库。本版本专门针对 **PyTorch 2.9.1** 和 **CUDA 13.0/13.1** 进行了深度优化，解决了官方版本在 Windows 平台上的编译问题，提供了开箱即用的高性能 Transformer 组件。
+xFormers 是一个用于加速 Transformer 模型研究和部署的高性能工具库。本版本解决了官方版本不支持 **PyTorch 2.9.1** 和 **CUDA 13.0/13.1** 的问题，修复了 Windows 平台上的编译错误，提供了开箱即用的高性能 Transformer 组件。
 
 ### ✨ 核心优势
 
